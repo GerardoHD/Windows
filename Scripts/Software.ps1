@@ -5,4 +5,4 @@ choco install filebot -y
 choco install jre8 -y
 choco install notepadplusplus -y
 choco install googlechrome -y
-choco install all -y
+choco upgrade all -y
