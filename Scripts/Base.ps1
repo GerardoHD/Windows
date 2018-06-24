@@ -6,6 +6,7 @@ Import-PackageProvider ChocolateyGet
 Get-Packageprovider -verbose
 Install-Module -Name windows-screenfetch -Force
 Install-Package Speedtest -Provider PowerShellGet
+choco install curl
 Screenfetch
 echo Ejecutar Uno de los siguientes Scripts
 ls C:\Program` Files\WindowsPowerShell\Scripts\
