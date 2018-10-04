@@ -1,5 +1,5 @@
 ﻿Set-ExecutionPolicy RemoteSigned -Scope Process
-Set-ExecutionPolicy RemoteSigned -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))}
+Set-ExecutionPolicy RemoteSigned -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 Find-PackageProvider ChocolateyGet -verbose
 Install-PackageProvider ChocolateyGet -verbose
 Import-PackageProvider ChocolateyGet
