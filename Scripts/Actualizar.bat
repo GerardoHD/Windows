@@ -1,2 +1,2 @@
 @ECHO OFF
-PowerShell.exe -Command "C:\Program` Files\WindowsPowerShell\Scripts\Actualizar.ps1"
+PowerShell.exe -Command "D:/Documentos/WindowsPowershell/Scripts/Actualizar.ps1"

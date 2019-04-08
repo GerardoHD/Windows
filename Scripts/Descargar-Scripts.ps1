@@ -1,13 +1,10 @@
-rm C:\Program` Files\WindowsPowerShell\Scripts\Actualizar.bat
-rm C:\Program` Files\WindowsPowerShell\Scripts\Actualizar.ps1
-rm C:\Program` Files\WindowsPowerShell\Scripts\Base.ps1
-rm C:\Program` Files\WindowsPowerShell\Scripts\GHD.ps1
-rm C:\Program` Files\WindowsPowerShell\Scripts\Software.ps1
-curl https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Actualizar.bat -o C:\Program` Files\WindowsPowerShell\Scripts\Actualizar.bat
-curl https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Actualizar.ps1 -o C:\Program` Files\WindowsPowerShell\Scripts\Actualizar.ps1
-curl https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Actualizar-Scripts.ps1 -o C:\Program` Files\WindowsPowerShell\Scripts\Actualizar-Scripts.ps1
-curl https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Base.ps1 -o C:\Program` Files\WindowsPowerShell\Scripts\Base.ps1
-curl https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/GHD.ps1 -o C:\Program` Files\WindowsPowerShell\Scripts\GHD.ps1
-curl https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Software.ps1 -o C:\Program` Files\WindowsPowerShell\Scripts\Software.ps1
+rm D:/Documentos/WindowsPowershell/Scripts/Actualizar.bat
+rm D:/Documentos/WindowsPowershell/Scripts/Actualizar.ps1
+rm D:/Documentos/WindowsPowershell/Scripts/Actualizar-Scripts.ps1
+rm D:/Documentos/WindowsPowershell/Scripts/Windows-Setup.ps1
+Start-BitsTransfer https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Actualizar.bat -Destination D:/Documentos/WindowsPowershell/Scripts/Actualizar.bat
+Start-BitsTransfer https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Actualizar.ps1 -Destination D:/Documentos/WindowsPowershell/Scripts/Actualizar.ps1
+Start-BitsTransfer https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Actualizar-Scripts.ps1 -Destination D:/Documentos/WindowsPowershell/Scripts/Actualizar-Scripts.ps1
+Start-BitsTransfer https://raw.githubusercontent.com/GerardoHD/Windows/master/Scripts/Base.ps1 -Destination D:/Documentos/WindowsPowershell/Scripts/Windows-Setup.ps1
 echo Ejecutar Uno de los siguientes Scripts
-ls C:\Program` Files\WindowsPowerShell\Scripts\
+ls D:/Documentos/WindowsPowershell/Scripts/
