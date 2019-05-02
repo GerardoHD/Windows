@@ -3,6 +3,7 @@ echo https://www.github.com/GerardoHD/Windows
 echo Script creado para instalar programas en Windows 10 usando chocolatey
 echo Se distribuye con la esperanza de que sea útil, pero sin ninguna garantía
 #
+Set-ExecutionPolicy UnRestricted -Scope LocalMachine
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 Find-PackageProvider ChocolateyGet -verbose
@@ -22,6 +23,7 @@ choco install advanced-renamer -y
 choco install jre8 -y
 choco install notepadplusplus -y
 choco install googlechrome -y
+choco install firefox -y
 choco install avidemux -y
 choco install steam -y
 choco install wps-office-free -y
