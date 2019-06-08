@@ -17,6 +17,7 @@ Screenfetch
 echo Cambiando hora de Windows de localtime a UTC
 reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
 choco install chocolateygui -y
+choco install adb -y
 choco install 7zip -y
 choco install mpc-hc -y
 choco install advanced-renamer -y
