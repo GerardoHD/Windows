@@ -24,11 +24,12 @@ choco install advanced-renamer -y
 choco install jre8 -y
 choco install notepadplusplus -y
 choco install googlechrome -y
-choco install firefox -y
-choco install avidemux -y
-choco install steam -y
+choco install microsoft-edge-insider -y
+#choco install firefox -y
+#choco install avidemux -y
+#choco install steam -y
 choco install wps-office-free -y
 choco install calibre -y
 choco install musicbee -y
-choco install spotify -y 
+#choco install spotify -y 
 choco upgrade all -y
